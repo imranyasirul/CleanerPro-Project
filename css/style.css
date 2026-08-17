@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+button {
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  border: none;
+}
+body {
+  background: #fff;
+}
+.commonBtn {
+  background-color: #36b864;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding: 9px 24px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.des {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 23px;
+  color: #666666;
+}
+/* =========N Start========== */
+#navBar {
+  padding: 24px 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.navWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navList ul {
+  display: flex;
+  gap: 29px;
+}
+.navList ul li a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4d4d4d;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: all linear 0.25s;
+}
+.navList ul li a:hover {
+  color: #36b864;
+}
+/* =========N End========== */
+
+/* =========Banner Start========== */
+#banner {
+  background-image: url(../images/Hero\ Iamge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-position: center;
+}
+.bannerContent{
+   padding: 350px 0;
+}
+.bannerContent span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #111d15;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.bannerContent h1 {
+  font-size: 39px;
+  color: #111d15;
+  font-weight: 700;
+  max-width: 457.5px;
+  line-height: 115%;
+  margin: 9px 0 18px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.bannerContent .des {
+  max-width: 418px;
+  margin-bottom: 30px;
+}
+.bannerBtnWrap{
+    display: flex;
+    gap: 19px;
+}
+.bannerBtnWrap button {
+    transition: all linear 0.25s;
+    border: 1px solid transparent;
+  
+}
+.bannerBtnWrap button:hover {
+  background-color: transparent;
+    border: 1px solid #666666;
+    color: black;
+
+}
+/* =========Banner End========== */
+
+/* =========N Start========== */
+/* =========N End========== */
+
+/* =========N Start========== */
+/* font-family: "Be Vietnam Pro", sans-serif; */
+
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Lato", sans-serif; */
+/* =========N End========== */
+
+/* =========N Start========== */
+/* =========N End========== */
+
+/* =========N Start========== */
+/* =========N End========== */
+
+/* =========N Start========== */
+/* =========N End========== */
+
+/* =========N Start========== */
+/* =========N End========== */
