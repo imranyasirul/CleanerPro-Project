@@ -40,6 +40,16 @@ body {
   line-height: 23px;
   color: #666666;
 }
+
+
+.commonHeading {
+  color: #111D15;
+  font-weight: 600;
+  font-size: 44px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 120%;
+}
+
 /* =========N Start========== */
 #navBar {
   padding: 24px 0;
@@ -73,11 +83,11 @@ body {
   background-image: url(../images/Hero\ Iamge.png);
   background-repeat: no-repeat;
   background-size: cover;
- 
+
   background-position: center;
 }
-.bannerContent{
-   padding: 350px 0;
+.bannerContent {
+  padding: 350px 0;
 }
 .bannerContent span {
   font-size: 15px;
@@ -98,25 +108,32 @@ body {
   max-width: 418px;
   margin-bottom: 30px;
 }
-.bannerBtnWrap{
-    display: flex;
-    gap: 19px;
+.bannerBtnWrap {
+  display: flex;
+  gap: 19px;
 }
 .bannerBtnWrap button {
-    transition: all linear 0.25s;
-    border: 1px solid transparent;
-  
+  transition: all linear 0.25s;
+  border: 1px solid transparent;
 }
 .bannerBtnWrap button:hover {
   background-color: transparent;
-    border: 1px solid #666666;
-    color: black;
-
+  border: 1px solid #666666;
+  color: black;
 }
 /* =========Banner End========== */
 
-/* =========N Start========== */
-/* =========N End========== */
+/* =========Service Start========== */
+#service{
+  padding: 150px 0 105px;
+}
+
+.serviceHeadWrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* =========Service End========== */
 
 /* =========N Start========== */
 /* font-family: "Be Vietnam Pro", sans-serif; */
